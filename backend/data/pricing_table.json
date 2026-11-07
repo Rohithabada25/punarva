@@ -1,0 +1,205 @@
+{
+  "materials": {
+    "red_bricks": {
+      "category": "construction",
+      "aliases": ["brick", "red brick", "clay brick", "burnt brick", "ituka", "eent"],
+      "unit_rates": {
+        "pieces": 10.0,
+        "units": 10.0
+      },
+      "default_unit": "pieces",
+      "weight_per_unit_kg": 3.0,
+      "condition_multipliers": {
+        "new": 0.85,
+        "good": 0.65,
+        "fair": 0.45,
+        "poor": 0.25
+      }
+    },
+    "fly_ash_bricks": {
+      "category": "construction",
+      "aliases": ["fly ash", "flyash", "cement brick", "concrete block"],
+      "unit_rates": {
+        "pieces": 8.0,
+        "units": 8.0
+      },
+      "default_unit": "pieces",
+      "weight_per_unit_kg": 2.8,
+      "condition_multipliers": {
+        "new": 0.85,
+        "good": 0.65,
+        "fair": 0.45,
+        "poor": 0.25
+      }
+    },
+    "cement": {
+      "category": "construction",
+      "aliases": ["cement", "portland", "opc", "ppc", "cement bag", "cement sack", "bosta"],
+      "unit_rates": {
+        "bags": 380.0,
+        "bag": 380.0,
+        "kg": 7.60,
+        "tons": 7600.0,
+        "tonne": 7600.0
+      },
+      "default_unit": "bags",
+      "weight_per_unit_kg": 50.0,
+      "condition_multipliers": {
+        "new": 0.80,
+        "good": 0.60,
+        "fair": 0.40,
+        "poor": 0.15
+      }
+    },
+    "sand": {
+      "category": "construction",
+      "aliases": ["sand", "river sand", "m-sand", "gravel", "aggregate", "isuka", "ret"],
+      "unit_rates": {
+        "tons": 1800.0,
+        "tonne": 1800.0,
+        "kg": 1.80,
+        "cft": 45.0
+      },
+      "default_unit": "tons",
+      "weight_per_unit_kg": 1000.0,
+      "condition_multipliers": {
+        "new": 0.85,
+        "good": 0.70,
+        "fair": 0.50,
+        "poor": 0.30
+      }
+    },
+    "steel": {
+      "category": "metals",
+      "aliases": ["steel", "tmt", "rebar", "iron", "iron bar", "metal rod", "loha"],
+      "unit_rates": {
+        "kg": 65.0,
+        "tons": 65000.0,
+        "tonne": 65000.0,
+        "pieces": 450.0,
+        "meters": 80.0
+      },
+      "default_unit": "kg",
+      "weight_per_unit_kg": 1.0,
+      "condition_multipliers": {
+        "new": 0.85,
+        "good": 0.70,
+        "fair": 0.50,
+        "poor": 0.35
+      }
+    },
+    "tiles": {
+      "category": "tiles",
+      "aliases": ["tile", "tiles", "ceramic", "vitrified", "floor tile", "wall tile", "granite", "marble"],
+      "unit_rates": {
+        "sqft": 45.0,
+        "pieces": 60.0,
+        "boxes": 350.0
+      },
+      "default_unit": "sqft",
+      "weight_per_unit_kg": 14.0,
+      "condition_multipliers": {
+        "new": 0.75,
+        "good": 0.55,
+        "fair": 0.35,
+        "poor": 0.20
+      }
+    },
+    "wood": {
+      "category": "wood",
+      "aliases": ["wood", "timber", "teak", "plank", "plywood", "beam", "log", "chekka", "lakdi"],
+      "unit_rates": {
+        "pieces": 400.0,
+        "cft": 2500.0,
+        "kg": 40.0,
+        "sheets": 1400.0
+      },
+      "default_unit": "pieces",
+      "weight_per_unit_kg": 20.0,
+      "condition_multipliers": {
+        "new": 0.80,
+        "good": 0.60,
+        "fair": 0.40,
+        "poor": 0.20
+      }
+    },
+    "furniture": {
+      "category": "furniture",
+      "aliases": ["furniture", "chair", "table", "desk", "door", "bench", "cupboard", "cabinet", "kursi"],
+      "unit_rates": {
+        "pieces": 1200.0,
+        "units": 1200.0
+      },
+      "default_unit": "pieces",
+      "weight_per_unit_kg": 15.0,
+      "condition_multipliers": {
+        "new": 0.70,
+        "good": 0.50,
+        "fair": 0.30,
+        "poor": 0.15
+      }
+    },
+    "plastics": {
+      "category": "plastics",
+      "aliases": ["plastic", "pvc", "hdpe", "pipe", "drum", "barrel", "tank"],
+      "unit_rates": {
+        "kg": 30.0,
+        "pieces": 1200.0,
+        "meters": 120.0
+      },
+      "default_unit": "kg",
+      "weight_per_unit_kg": 5.0,
+      "condition_multipliers": {
+        "new": 0.75,
+        "good": 0.55,
+        "fair": 0.35,
+        "poor": 0.20
+      }
+    },
+    "ewaste": {
+      "category": "electronics",
+      "aliases": ["electronics", "e-waste", "ewaste", "pcb", "circuit", "cable", "wire", "inverter", "ups", "computer", "transformer", "battery"],
+      "unit_rates": {
+        "kg": 45.0,
+        "pieces": 250.0,
+        "units": 250.0,
+        "meters": 35.0
+      },
+      "default_unit": "kg",
+      "weight_per_unit_kg": 2.0,
+      "condition_multipliers": {
+        "new": 0.80,
+        "good": 0.60,
+        "fair": 0.40,
+        "poor": 0.20
+      }
+    },
+    "cardboard": {
+      "category": "other",
+      "aliases": ["cardboard", "carton", "paper", "box", "packaging", "corrugated"],
+      "unit_rates": {
+        "kg": 12.0,
+        "bundles": 60.0,
+        "pieces": 15.0
+      },
+      "default_unit": "kg",
+      "weight_per_unit_kg": 1.0,
+      "condition_multipliers": {
+        "new": 0.75,
+        "good": 0.50,
+        "fair": 0.30,
+        "poor": 0.15
+      }
+    }
+  },
+  "default_category_unit_rates": {
+    "construction": { "unit": "pieces", "rate": 10.0 },
+    "tiles": { "unit": "sqft", "rate": 45.0 },
+    "wood": { "unit": "pieces", "rate": 400.0 },
+    "furniture": { "unit": "pieces", "rate": 1200.0 },
+    "metals": { "unit": "kg", "rate": 65.0 },
+    "plastics": { "unit": "kg", "rate": 30.0 },
+    "electronics": { "unit": "kg", "rate": 45.0 },
+    "other": { "unit": "kg", "rate": 20.0 }
+  }
+}

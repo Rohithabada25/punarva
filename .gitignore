@@ -1,0 +1,36 @@
+# Environment variables
+.env
+backend/.env
+frontend/.env
+*.env.local
+
+# Python
+backend/venv/
+backend/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Node / Frontend
+frontend/node_modules/
+node_modules/
+frontend/dist/
+frontend/build/
+.npm/
+
+# Uploads & Data
+backend/uploads/
+uploads/
+backend/chroma_db/
+chroma_db/
+*.db
+*.sqlite3
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+backend/scratch/

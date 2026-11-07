@@ -1,0 +1,41 @@
+{
+  "co2_factors_per_kg": {
+    "red_bricks": 0.24,
+    "fly_ash_bricks": 0.15,
+    "cement_bags": 0.88,
+    "sand": 0.05,
+    "ceramic_tiles": 0.68,
+    "granite_slabs": 0.45,
+    "teak_wood": 1.45,
+    "plywood_sheets": 1.10,
+    "wooden_doors": 1.35,
+    "wooden_chairs": 1.25,
+    "steel_tmt_bars": 1.85,
+    "aluminium_scrap_frames": 8.20,
+    "pvc_pipes": 2.15,
+    "hdpe_plastic_barrels": 1.95,
+    "electrical_conduit_cables": 3.40,
+    "electronic_e_waste": 14.50
+  },
+  "category_default_co2_per_kg": {
+    "construction": 0.35,
+    "tiles": 0.60,
+    "wood": 1.25,
+    "furniture": 1.30,
+    "metals": 2.50,
+    "plastics": 2.05,
+    "electronics": 12.0,
+    "other": 0.80
+  },
+  "unit_to_kg_defaults": {
+    "kg": 1.0,
+    "ton": 1000.0,
+    "tons": 1000.0,
+    "bags": 50.0,
+    "pieces": 3.0,
+    "sqft": 4.5,
+    "cft": 20.0,
+    "sheets": 22.0,
+    "meters": 1.2
+  }
+}
